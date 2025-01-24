@@ -15,55 +15,91 @@ import background from '../assets/background.svg';
       </nav>
     </header>
     <div class="mb-8">
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-        <a href="#">Animation</a>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer" onclick="window.filterShots('all')">
+        All
       </span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-        <a href="#">UI</a>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer" onclick="window.filterShots('Webdesign')">
+        Webdesign
       </span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-        <a href="#">UX</a>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer" onclick="window.filterShots('Ecommerce')">
+        Ecommerce
       </span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-        <a href="#">Web Design</a>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer" onclick="window.filterShots('UX')">
+        UX
       </span>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <a href="/src/assets/1.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="/src/assets/1.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Webdesign">
         <video src="/src/assets/1.mp4" controls class="video-shot rounded-xl mb-2"></video>
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Webdesign</span>
+        </div>
       </a>
-      <a href="/src/assets/2.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="/src/assets/2.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Ecommerce">
         <video src="/src/assets/2.mp4" controls class="video-shot rounded-xl mb-2"></video>
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ecommerce</span>
+        </div>
       </a>
-      <a href="/src/assets/3.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="/src/assets/3.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot UX">
         <video src="/src/assets/3.mp4" controls class="video-shot rounded-xl mb-2"></video>
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">UX</span>
+        </div>
       </a>
-      <a href="/src/assets/4.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="/src/assets/4.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Webdesign">
         <video src="/src/assets/4.mp4" controls class="video-shot rounded-xl mb-2"></video>
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Webdesign</span>
+        </div>
       </a>
-      <a href="/src/assets/5.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="/src/assets/5.mp4" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Webdesign">
         <video src="/src/assets/5.mp4" controls class="video-shot rounded-xl mb-2"></video>
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Webdesign</span>
+        </div>
       </a>
-      <a href="https://678fe1690369c600875493bb--symphonious-basbousa-80096b.netlify.app/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="https://678fe1690369c600875493bb--symphonious-basbousa-80096b.netlify.app/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Webdesign">
         <img src="/src/assets/d6a.webp" class="video-shot rounded-xl mb-2" />
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Webdesign</span>
+        </div>
       </a>
-      <a href="https://stirring-chimera-91d42f.netlify.app/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="https://stirring-chimera-91d42f.netlify.app/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Webdesign">
         <img src="/src/assets/d7.png" class="video-shot rounded-xl mb-2" />
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Webdesign</span>
+        </div>
       </a>
-      <a href="https://grand-treacle-e0a0fc.netlify.app/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="https://grand-treacle-e0a0fc.netlify.app/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Webdesign">
         <img src="/src/assets/d8.png" class="video-shot rounded-xl mb-2" />
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Webdesign</span>
+        </div>
       </a>
-      <a href="https://nhsc.edu.in/pharmacy-wing/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="https://nhsc.edu.in/pharmacy-wing/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Webdesign">
         <img src="/src/assets/d9.png" class="video-shot rounded-xl mb-2" />
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Webdesign</span>
+        </div>
       </a>
-      <a href="https://www.pawschef.com/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="https://www.pawschef.com/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Ecommerce">
         <img src="/src/assets/d10.png" class="video-shot rounded-xl mb-2" />
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ecommerce</span>
+        </div>
       </a>
-      <a href="https://dancing-babka-53ab85.netlify.app" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="https://dancing-babka-53ab85.netlify.app" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Webdesign">
         <img src="/src/assets/d12.png" class="video-shot rounded-xl mb-2" />
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Webdesign</span>
+        </div>
       </a>
-      <a href="https://jocular-dragon-9a6b41.netlify.app" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray">
+      <a href="https://jocular-dragon-9a6b41.netlify.app" target="_blank" rel="noopener noreferrer" class="p-4 rounded-xl overflow-hidden bg-white border border-dribbble-border-gray shot Webdesign">
         <img src="/src/assets/d14.png" class="video-shot rounded-xl mb-2" />
+        <div class="tags">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Webdesign</span>
+        </div>
       </a>
     </div>
   </main>
@@ -74,5 +110,8 @@ import background from '../assets/background.svg';
     max-width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
+  }
+  .tags {
+    margin-top: 1rem;
   }
 </style>
